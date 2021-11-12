@@ -34,8 +34,8 @@ flutter:
         pluginClass: SlabaPlugin
       ios:
         pluginClass: SlabaPlugin
-      windows:
-        pluginClass: SlabaPlugin
+      # windows:
+      #   pluginClass: SlabaPlugin
       web:
         pluginClass: SlabaWeb
         fileName: slaba_web.dart
