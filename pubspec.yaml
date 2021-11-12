@@ -1,7 +1,7 @@
 name: slaba
 description: A new flutter package project I created by following a tutorial.
 version: 0.0.1
-homepage: https://github.com/techwithsam/news_api
+homepage: https://github.com/obounce/slaba
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
