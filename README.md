@@ -30,8 +30,6 @@ Make use of the package like this:
 
 No other configuration required—the plugin works out of the box.
 
-## :helicopter: Testing your implementation
-
 ## :arrow_forward: Running Example project
 
 For help getting started with Flutter, view the online [documentation](https://flutter.io/).
