@@ -2,17 +2,7 @@
 
 A new flutter plugin project.
 
-Open source Flutter package, bar indicator made of a series of selected and unselected steps.
-
-Made by Samuel Adekunle,
-
-**[Check out the full step_progress_indicator tutorial](https://www.sandromaglione.com/2020/01/24/step-progress-indicator-flutter-package-tutorial/)**
-
-See the full example [here](https://github.com/SandroMaglione/step-progress-indicator/tree/master/example)
-
-Check out the official dartdoc for the package [here](https://pub.dev/documentation/step_progress_indicator/latest/step_progress_indicator/StepProgressIndicator-class.html)
-
-## Screenshots
+Made by Samuel Adekunle x O'Bounce Technologies,
 
 Install and import the package. Then just customize its parameters.
 
@@ -20,19 +10,36 @@ Install and import the package. Then just customize its parameters.
 dependencies:
   flutter:
     sdk: flutter
-  step_progress_indicator: ^1.0.1
+  slaba: ^1.0.1
 ```
 
+Make use of the package like this:
 
-## Getting Started
+```dart
+  OneAppPlugin().getPaymentUI(
+    context,
+    amount: 1000.00,
+    email: 'example@mail.net',
+    currency: 'NGN',
+    firstName: 'Samuel',
+    lastName: 'Adekunle',
+    phoneNumber: '09011111111',
+    secretKey: 'secret-key-0000000XXXXXXX',
+  );
+```
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+No other configuration required—the plugin works out of the box.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## :helicopter: Testing your implementation
 
-"# slaba" 
+## :arrow_forward: Running Example project
+
+For help getting started with Flutter, view the online [documentation](https://flutter.io/).
+
+An [example project](https://github.com/obounce/slaba/tree/main/example) has been provided in this plugin.
+Clone this repo and navigate to the **example** folder. Open it with a supported IDE or execute `flutter run` from that folder in terminal.
+
+## :pencil: Contributing, :disappointed: Issues and :bug: Bug Reports
+
+The project is open to public contribution. Please feel very free to contribute.
+Experienced an issue or want to report a bug? Please, [report it here](https://github.com/obounce/slaba/issues). Remember to be as descriptive as possible.
